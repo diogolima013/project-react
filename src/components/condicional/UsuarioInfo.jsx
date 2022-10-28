@@ -12,5 +12,5 @@ export default props => {
                 </Else>
             </If>
         </div>
-    )
-}
+    );
+};
