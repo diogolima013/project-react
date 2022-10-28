@@ -2,6 +2,8 @@ import './App.css'
 import React from "react";
 
 import Card from "./components/layout/Card";
+
+import Familia from './components/components/Familia';
 import Aleatorio from "./components/components/Aleatorio";
 import Fragmento from './components/components/Fragmento'
 import Comparametro from './components/components/ComParametro'
@@ -13,6 +15,10 @@ export default () => (
         <h1>Fundamentos React </h1>
 
         <div className="Cards">
+            <Card titulo='#05 - Componente com Filhos' color='#00C8F8'>
+            <Familia sobrenome='Ferreira'/>
+            </Card>
+
             <Card titulo='#04 - Desafio Aleatório' color='#FA6900'>
                 <Aleatorio min={1} max={60}/>
             </Card>

@@ -5,7 +5,8 @@ export default (props) => {
     
     const cardStyle = {
         backgroundColor: props.color || '#F00',
-        borderColor: props.color || '#F00'
+        borderColor: props.color || '#F00',
+        
     }
     
     return (
